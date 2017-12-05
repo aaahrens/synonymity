@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_blue_dark"
+                android:focusable="True"
+                android:id="@+id/fragment_parent"
+
+                tools:context="com.foundry.drunkengranite.synonymity.Fragments.GameFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timer"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="50sp"
+            android:id="@+id/timer"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="score"
+            android:layout_margin="5dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/score"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="word"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:id="@+id/current_word"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/timer"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:id="@+id/gridContainer"
+        android:layout_below="@id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="15dp"
+            android:columnWidth="90dp"
+            android:gravity="bottom"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

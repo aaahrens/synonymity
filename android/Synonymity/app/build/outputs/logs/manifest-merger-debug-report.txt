@@ -1,0 +1,96 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:3:11-58
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:7:5-23:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/drunkengranite/.android/build-cache/ff5c95570ec7163feeff3a5a524920553b9fb9cf/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/drunkengranite/.android/build-cache/58fc61e17e9dd3df72e959d41a38b783736339e9/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/drunkengranite/.android/build-cache/d4fcbc7b767776be391a0c304b002d65178f44c2/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/drunkengranite/.android/build-cache/7633dce500f3438250ef45ec0e6e138e0c422d26/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/drunkengranite/.android/build-cache/e6405c108eaeac7f4d6f20a11641abc218f9e4b5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/drunkengranite/.android/build-cache/acc7d3dc5e898b2adb619f129f0ac3f326d7f099/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/drunkengranite/.android/build-cache/8fb2f36a40a007001a9fc95d9eccca5e3aac187f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/drunkengranite/.android/build-cache/4cda078b9c921e14b636cf3c49c8cbf1079a92d1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/drunkengranite/.android/build-cache/2648db3c2d7540b4443874ad1ac7387dbbb7d64d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/drunkengranite/.android/build-cache/c699827c73986dbd7c5f14e28b5699d9b7cfb2c3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/drunkengranite/.android/build-cache/25f1c9418a4ad69c0f8ff7ff6e5f945fd05a4538/output/AndroidManifest.xml:26:5-20
+	android:label
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.foundry.drunkengranite.synonymity.MainActivity
+ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:screenOrientation
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:16:13-49
+	android:name
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:15:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:18:17-68
+	android:name
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:20:17-76
+	android:name
+		ADDED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/drunkengranite/.android/build-cache/ff5c95570ec7163feeff3a5a524920553b9fb9cf/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/drunkengranite/.android/build-cache/58fc61e17e9dd3df72e959d41a38b783736339e9/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/drunkengranite/.android/build-cache/d4fcbc7b767776be391a0c304b002d65178f44c2/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/drunkengranite/.android/build-cache/7633dce500f3438250ef45ec0e6e138e0c422d26/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:25.3.1] /Users/drunkengranite/.android/build-cache/e6405c108eaeac7f4d6f20a11641abc218f9e4b5/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/drunkengranite/.android/build-cache/acc7d3dc5e898b2adb619f129f0ac3f326d7f099/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/drunkengranite/.android/build-cache/8fb2f36a40a007001a9fc95d9eccca5e3aac187f/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/drunkengranite/.android/build-cache/4cda078b9c921e14b636cf3c49c8cbf1079a92d1/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/drunkengranite/.android/build-cache/2648db3c2d7540b4443874ad1ac7387dbbb7d64d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/drunkengranite/.android/build-cache/c699827c73986dbd7c5f14e28b5699d9b7cfb2c3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/drunkengranite/.android/build-cache/25f1c9418a4ad69c0f8ff7ff6e5f945fd05a4538/output/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/drunkengranite/.android/build-cache/ff5c95570ec7163feeff3a5a524920553b9fb9cf/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/drunkengranite/projects/Apps/Synonymity/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/drunkengranite/.android/build-cache/ff5c95570ec7163feeff3a5a524920553b9fb9cf/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/drunkengranite/.android/build-cache/58fc61e17e9dd3df72e959d41a38b783736339e9/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/drunkengranite/.android/build-cache/d4fcbc7b767776be391a0c304b002d65178f44c2/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/drunkengranite/.android/build-cache/e6405c108eaeac7f4d6f20a11641abc218f9e4b5/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/drunkengranite/.android/build-cache/acc7d3dc5e898b2adb619f129f0ac3f326d7f099/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/drunkengranite/.android/build-cache/8fb2f36a40a007001a9fc95d9eccca5e3aac187f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/drunkengranite/.android/build-cache/4cda078b9c921e14b636cf3c49c8cbf1079a92d1/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/drunkengranite/.android/build-cache/2648db3c2d7540b4443874ad1ac7387dbbb7d64d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/drunkengranite/.android/build-cache/c699827c73986dbd7c5f14e28b5699d9b7cfb2c3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/drunkengranite/.android/build-cache/25f1c9418a4ad69c0f8ff7ff6e5f945fd05a4538/output/AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/drunkengranite/.android/build-cache/ff5c95570ec7163feeff3a5a524920553b9fb9cf/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/drunkengranite/.android/build-cache/ff5c95570ec7163feeff3a5a524920553b9fb9cf/output/AndroidManifest.xml:26:9-47

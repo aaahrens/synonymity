@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/drunkengranite/projects/Apps/Synonymity/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/drunkengranite/projects/Apps/Synonymity/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/drunkengranite/projects/Apps/Synonymity/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/drunkengranite/projects/Apps/Synonymity/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

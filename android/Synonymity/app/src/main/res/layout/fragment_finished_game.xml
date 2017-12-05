@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="@color/finishBackground"
+                tools:context="com.foundry.drunkengranite.synonymity.Fragments.FinishedGame">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="@android:color/holo_blue_light"
+        android:layout_marginTop="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="3"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout2">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:layout_weight="1"
+                    android:layout_gravity="start"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="The orginal word was penis"
+                    android:id="@+id/original_word"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/correctWord"
+                    android:gravity="center"
+                    android:text="The correct word was penis"
+                    android:textColor="@android:color/white"/>
+
+                <TextView
+                    android:id="@+id/selectedWord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="left"
+                    android:gravity="center"
+                    android:text="selected word"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="5"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/linearLayout2"
+                android:layout_toEndOf="@+id/linearLayout2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="4"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:lines="2"
+                    android:textSize="30sp"
+                    android:id="@+id/final_score"
+                    android:text="Score: \n 54 "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:text="¯\\_(ツ)_/¯"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play again!"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="113dp"
+        android:id="@+id/restart"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
