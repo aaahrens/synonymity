@@ -1,0 +1,56 @@
+group 'synonymity'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'ch.qos.logback:logback-classic:1.1.2'
+    compile "com.sparkjava:spark-core:2.6.0" //add to build.gradle
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    compile "com.sparkjava:spark-core:2.6.0" //add to build.gradle
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    compile group: 'com.google.code.gson', name: 'gson', version: '1.7.2'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-gradle-plugin
+//    compile group: 'org.hibernate', name: 'hibernate-gradle-plugin', version: '5.2.10.Final'
+// https://mvnrepository.com/artifact/org.eclipse.persistence/javax.persistence
+    // https://mvnrepository.com/artifact/org.postgresql/postgresql
+//    compile group: 'org.postgresql', name: 'postgresql', version: '9.3-1100-jdbc41'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate
+//    compile group: 'org.hibernate', name: 'hibernate', version: '3.5.4-Final'
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-c3p0
+//    compile group: 'org.hibernate', name: 'hibernate-c3p0', version: '5.2.10.Final'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-collections4
+// https://mvnrepository.com/artifact/com.zaxxer/HikariCP
+//    compile group: 'com.zaxxer', name: 'HikariCP', version: '2.6.1'
+
+// https://mvnrepository.com/artifact/org.eclipse.persistence/org.eclipse.persistence.jpa
+    compile group: 'org.eclipse.persistence', name: 'org.eclipse.persistence.jpa', version: '2.6.1'
+// https://mvnrepository.com/artifact/javax.persistence/persistence-api
+    compile group: 'javax.persistence', name: 'persistence-api', version: '1.0.2'
+
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+tasks.withType(Jar) {
+    destinationDir = file("$rootDir/docker_jars")
+}
+
+//create a single Jar with all dependencies
+task fatty(type: Jar) {
+    manifest {
+         attributes 'Main-Class': 'com.Handler'
+    }
+    baseName = "synonymity"
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+//    exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
+    with jar
+
+}

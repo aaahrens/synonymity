@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <!-- A JPA Persistence Unit -->
+    <persistence-unit name="database" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>Entities.Problem</class>
+        <class>Entities.Word</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://synonymity.cu3h5plqubcl.us-west-2.rds.amazonaws.com:5432/synonymity"/>
+            <property name="javax.persistence.jdbc.user" value="drunkengranite"/>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javax.persistence.jdbc.password" value="Dudder1218"/>
+
+        </properties>
+    </persistence-unit>
+</persistence>
