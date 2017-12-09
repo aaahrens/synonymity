@@ -8,7 +8,7 @@ note: none of this code is running live anywhere, it is up to you to use it.
 * uses gradle for dependancies
 * dishes out the problem set in a get request, with the difficulty set in the headers  
 
-##the scraper
+## the scraper
 * scraps dictionary.com, finds synonyms on the site based on url routing and the pages it returns
 * pipelines to a connected database using sqlalchemy
 
